@@ -94,7 +94,7 @@ id = "abc"; // OK
 id = true; // エラー
 ```
 
-型は一つに指定できるのは理想ではありますが、ユーザー入力や API など外部からくる値は複数データ型がある場合が存在するため、この書き方をします。
+型は一つのみが理想ではありますが、ユーザー入力や API など、外部からくる値のデータ型は複数あるため、この書き方をします。
 関数では、
 
 ```typescript
@@ -162,4 +162,6 @@ type User = {
 
 この記事は以下の情報を参考にして執筆しました。
 
--[TypeScript](https://www.typescriptlang.org/) -[MDN 文法とデータ型](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Grammar_and_types) -[MDN JavaScript のデータ型とデータ構造](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Data_structures)
+- [TypeScript](https://www.typescriptlang.org/)
+- [MDN 文法とデータ型](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Grammar_and_types)
+- [MDN JavaScript のデータ型とデータ構造](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Data_structures)
