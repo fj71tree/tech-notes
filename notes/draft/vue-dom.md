@@ -22,7 +22,7 @@ document
   └─ html
        └─ body
             └─ p
-                 └─ "Hello World"
+               └─ "Hello World"
 ```
 
 DOM 操作で内容を変更する場合は、
@@ -57,7 +57,7 @@ btn.addEventListener("click", () => {
 });
 ```
 
-上記のコードでは、count という状態を持っています。ボタンがクリックされると、count を増やし、自分で DOM の更新を行っています。このコードは、状態管理と DOM 操作を両方書く必要があるため、どの DOM を更新するか人間が覚えている必要があります。
+上記のコードでは、count という状態を持っています。ボタンがクリックされると、count を増やし、自分で DOM の更新を行っています。このコードは、状態管理と DOM 操作を両方書く必要があるため、どの DOM を更新するか人間が管理する必要があります。
 
 Vue を使うことで、
 
@@ -96,6 +96,8 @@ DOM 更新の効率化を行うためです。実 DOM の操作は、ブラウ�
 - DOM はブラウザが HTML を扱うための仕組み
 - 素の JavaScript では状態と DOM 更新を自分で管理する必要がある
 - Vue は仮想 DOM を使い、DOM 更新を任せている
+
+## 参考文献
 
 - [Vue.js レンタリングの仕組み](https://ja.vuejs.org/guide/extras/rendering-mechanism)
 - [MDN ドキュメントオブジェクトモデル (DOM)](https://developer.mozilla.org/ja/docs/Web/API/Document_Object_Model)
